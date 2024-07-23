@@ -3,3 +3,9 @@
   <p>Count:{{ counter }}</p>
   <button @click="increment">+ 1する</button>
 </div>
+
+<div>
+  <button @click.client="handleClientClick">
+    Firebase Analytics ログイベント発火
+  </button>
+</div>
